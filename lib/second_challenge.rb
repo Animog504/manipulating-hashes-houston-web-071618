@@ -9,7 +9,7 @@ def second_challenge
   #code your solution here!
   myGroceries = []
   groceries.each do |hash, value|
-  myGroceries << value
+  myGroceries << value.values
   end
   
   myGroceries
