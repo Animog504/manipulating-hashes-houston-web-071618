@@ -7,6 +7,7 @@ def second_challenge
   }
 
   #code your solution here!
+  groceries.each do |hash, value|
   myGroceries = groceries.values
   myGroceries
 
